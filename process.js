@@ -41,8 +41,8 @@ module.exports = data => {
         node.content.url,
         node.content.title,
         column.name,
-        impactValue || 0,
-        effortValue || 0
+        effortValue || 0,
+        impactValue || 0
       ];
       // console.log(line);
       items.push(line);
