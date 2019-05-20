@@ -1,7 +1,6 @@
 const fs = require(`fs`);
 const _ = require(`lodash`);
 const { convertArrayToCSV } = require("convert-array-to-csv");
-const data = JSON.parse(fs.readFileSync(`./data.json`));
 
 const labelMap = {
   "impact: high": 1,
@@ -53,4 +52,5 @@ module.exports = data => {
   console.log(convertArrayToCSV(items));
 };
 
-module.exports(data);
+// const data = JSON.parse(fs.readFileSync(`./data.json`));
+// module.exports(data);
