@@ -1,0 +1,25 @@
+{
+  "name": "pr-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convert-array-to-csv": "^1.0.7",
+    "dotenv": "^8.0.0",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0",
+    "onegraph-auth": "^1.2.24"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.17.0"
+  }
+}
