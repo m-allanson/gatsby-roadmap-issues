@@ -38,7 +38,7 @@ query GatsbyRoadmapIssues {
                   ... on GitHubIssue {
                     title
                     url
-                    labels(first: 10) {
+                    labels(first: 100) {
                       nodes {
                         name
                       }
@@ -47,6 +47,11 @@ query GatsbyRoadmapIssues {
                   ... on GitHubPullRequest {
                     title
                     url
+                    labels(first: 100) {
+                      nodes {
+                        name
+                      }
+                    }
                   }
                 }
                 url
